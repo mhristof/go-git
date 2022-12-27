@@ -2,7 +2,10 @@ module github.com/mhristof/go-git
 
 go 1.19
 
-require github.com/spf13/viper v1.14.0
+require (
+	github.com/sirupsen/logrus v1.9.0
+	github.com/spf13/viper v1.14.0
+)
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
